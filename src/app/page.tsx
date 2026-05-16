@@ -65,7 +65,7 @@ export default function LandingPage() {
           name: "Elena V.",          handle: "@elena",          testimonial: "Changed our business operations for the better.",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/closeup-happy-middle-aged-business-leader_1262-4823.jpg"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg?_wi=1"
       imageAlt="tech software platform interface"
       avatars={[
         {
@@ -95,7 +95,7 @@ export default function LandingPage() {
         {
           value: "24/7",          title: "Support"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
       imageAlt="tech team collaborative space"
@@ -175,13 +175,13 @@ export default function LandingPage() {
             "Priority support",            "20 Users",            "Advanced analytics"],
           button: {
             text: "Get Started",            href: "#"},
-          imageSrc: "http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg",          imageAlt: "Woman watching business conference on computer screen looking over statistics"},
+          imageSrc: "http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg?_wi=2",          imageAlt: "Woman watching business conference on computer screen looking over statistics"},
         {
           id: "enterprise",          title: "Enterprise",          price: "$299",          period: "/mo",          features: [
             "Dedicated account manager",            "Unlimited users",            "Full API access"],
           button: {
             text: "Contact Us",            href: "#"},
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg",          imageAlt: "Woman watching business conference on computer screen looking over statistics"},
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg?_wi=2",          imageAlt: "Woman watching business conference on computer screen looking over statistics"},
       ]}
       title="Flexible Pricing Plans"
       description="Select the plan that best fits your business growth stage."
