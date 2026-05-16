@@ -93,7 +93,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/closeup-happy-middle-aged-business-leader_1262-4823.jpg",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg?_wi=1"
       imageAlt="tech software platform interface"
       avatars={[
         {
@@ -139,7 +139,7 @@ export default function LandingPage() {
           title: "Support",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg?_wi=1"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
       imageAlt="tech team collaborative space"
@@ -163,7 +163,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-business-concept_53876-33533.jpg",
             imageAlt: "data visualization mobile chart",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg?_wi=2",
           imageAlt: "mobile app dashboard ui",
         },
         {
@@ -177,7 +177,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/worker-examines-phone-with-greenscreen_482257-76605.jpg",
             imageAlt: "data visualization mobile chart",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg?_wi=2",
           imageAlt: "mobile app dashboard ui",
         },
         {
@@ -191,7 +191,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/worker-holding-device-with-greenscreen_482257-76711.jpg",
             imageAlt: "data visualization mobile chart",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714179.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714179.jpg?_wi=1",
           imageAlt: "mobile app dashboard ui",
         },
       ]}
@@ -212,7 +212,7 @@ export default function LandingPage() {
           id: "p1",
           name: "Core Platform",
           price: "$99",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714179.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714179.jpg?_wi=2",
           imageAlt: "software product 3d render",
         },
         {
@@ -293,7 +293,7 @@ export default function LandingPage() {
             text: "Get Started",
             href: "#",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/businessman-studying-infographics-performance-metrics_482257-122632.jpg?_wi=3",
           imageAlt: "Woman watching business conference on computer screen looking over statistics",
         },
         {
@@ -310,7 +310,7 @@ export default function LandingPage() {
             text: "Contact Us",
             href: "#",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-equipped-computer-lab_23-2149241200.jpg?_wi=3",
           imageAlt: "Woman watching business conference on computer screen looking over statistics",
         },
       ]}
