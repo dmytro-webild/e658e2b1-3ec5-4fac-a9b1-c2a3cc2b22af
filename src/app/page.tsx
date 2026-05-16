@@ -12,7 +12,6 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
-import { CheckCircle } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -70,6 +69,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       title="Our Core Competencies"
+      description="Excellence in every department."
       features={[
           { id: "f1", label: "Enterprise Solutions", title: "Full-Scale Strategy", items: ["Market Analysis", "Growth Hacking"] },
           { id: "f2", label: "Operations", title: "Optimized Workflows", items: ["Automation", "Resource Management"] }
@@ -84,6 +84,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       title="Products & Solutions"
+      description="Innovative tools built for growth."
       products={[
           { id: "1", name: "Enterprise ERP", price: "$499", variant: "Standard", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" }
       ]}
@@ -93,7 +94,10 @@ export default function LandingPage() {
   <div id="pricing" data-section="pricing">
       <PricingCardEight
       animationType="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={false}
       title="Transparent Pricing"
+      description="Choose the plan that best fits your business needs."
       plans={[
           { id: "p1", badge: "Core", price: "$299", subtitle: "Best for growing companies", features: ["Access to basic tools", "Email support"], buttons: [{ text: "Get Started" }] }
       ]}
@@ -105,7 +109,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       title="Impact in Numbers"
+      description="Measured results for every partner."
       metrics={[
           { id: "1", value: "100+", description: "Happy Partners" },
           { id: "2", value: "250+", description: "Completed Projects" }
@@ -115,11 +121,12 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardOne
-      showRating={true}
       animationType="slide-up"
       gridVariant="uniform-all-items-equal"
       textboxLayout="default"
+      useInvertedBackground={false}
       title="Trusted by Industry Leaders"
+      description="Hear what our clients have to say."
       testimonials={[
           { id: "1", name: "John Smith", role: "Director of Operations", company: "Apex Construction", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/portrait-of-confident-manager_23-2148767756.jpg" }
       ]}
