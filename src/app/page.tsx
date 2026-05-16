@@ -87,9 +87,9 @@ export default function LandingPage() {
       title="Products & Solutions"
       description="Enterprise-grade tools tailored for your success."
       products={[
-          { id: "1", name: "Enterprise ERP", price: "$499", variant: "Standard", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" },
-          { id: "2", name: "Cloud Suite", price: "$799", variant: "Professional", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" },
-          { id: "3", name: "Security Plus", price: "$999", variant: "Ultimate", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" }
+          { id: "1", name: "Enterprise ERP", price: "$499", variant: "Standard", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg?_wi=1" },
+          { id: "2", name: "Cloud Suite", price: "$799", variant: "Professional", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg?_wi=2" },
+          { id: "3", name: "Security Plus", price: "$999", variant: "Ultimate", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg?_wi=3" }
       ]}
     />
   </div>
