@@ -2,16 +2,16 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
-import FooterCard from '@/components/sections/footer/FooterCard';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import { CheckCircle } from "lucide-react";
 
 export default function LandingPage() {
@@ -114,30 +114,42 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardThirteen
+      <TestimonialCardOne
       showRating={true}
       animationType="slide-up"
+      gridVariant="uniform-all-items-equal"
       textboxLayout="default"
-      title="Client Success"
+      title="Trusted by Industry Leaders"
       testimonials={[
-          { id: "1", name: "Jane Doe", handle: "@janedoe", testimonial: "Shiv Enterprise exceeded our expectations in every phase of the project.", rating: 5 }
+          { id: "1", name: "John Smith", role: "Director of Operations", company: "Apex Construction", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/portrait-of-confident-manager_23-2148767756.jpg" }
       ]}
     />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
-      tag="Contact Us"
-      title="Let's build together"
-      description="Ready to discuss your next project? Get in touch with our team."
-      buttons={[{ text: "Send Message" }]}
+      <ContactSplitForm
+      title="Request a Project Consultation"
+      description="Transform your construction and enterprise operations with our tailored solutions. Let's discuss your requirements today."
+      inputs={[
+        { name: "name", type: "text", placeholder: "Full Name" },
+        { name: "company", type: "text", placeholder: "Company Name" },
+        { name: "email", type: "email", placeholder: "Work Email" }
+      ]}
+      textarea={{ name: "message", placeholder: "Project brief or requirements..." }}
+      buttonText="Submit Request"
+      useInvertedBackground={false}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterCard
-      logoText="Shiv Enterprise"
-      socialLinks={[{ icon: CheckCircle, href: "#", ariaLabel: "Social" }]}
+      <FooterSimple
+      columns={[
+        { title: "Services", items: [{ label: "Workflow Optimization" }, { label: "Enterprise ERP" }] },
+        { title: "Company", items: [{ label: "About Us" }, { label: "Careers" }] },
+        { title: "Support", items: [{ label: "Help Center" }, { label: "Contact Support" }] }
+      ]}
+      bottomLeftText="© 2025 Shiv Enterprise"
+      bottomRightText="Industry Leading Construction Tech Solutions"
     />
   </div>
       </ReactLenis>
