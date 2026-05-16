@@ -70,6 +70,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       title="Our Core Competencies"
+      description="Tailored strategies and optimized operations for your business scaling needs."
       features={[
           { id: "f1", label: "Enterprise Solutions", title: "Full-Scale Strategy", items: ["Market Analysis", "Growth Hacking"] },
           { id: "f2", label: "Operations", title: "Optimized Workflows", items: ["Automation", "Resource Management"] }
@@ -84,8 +85,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       title="Products & Solutions"
+      description="Enterprise-grade tools tailored for your success."
       products={[
-          { id: "1", name: "Enterprise ERP", price: "$499", variant: "Standard", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" }
+          { id: "1", name: "Enterprise ERP", price: "$499", variant: "Standard", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" },
+          { id: "2", name: "Cloud Suite", price: "$799", variant: "Professional", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" },
+          { id: "3", name: "Security Plus", price: "$999", variant: "Ultimate", imageSrc: "https://img.b2bpic.net/free-photo/data-analysis-chart_23-2148675038.jpg" }
       ]}
     />
   </div>
@@ -94,6 +98,9 @@ export default function LandingPage() {
       <PricingCardEight
       animationType="slide-up"
       title="Transparent Pricing"
+      description="Choose the plan that best fits your business goals."
+      textboxLayout="default"
+      useInvertedBackground={false}
       plans={[
           { id: "p1", badge: "Core", price: "$299", subtitle: "Best for growing companies", features: ["Access to basic tools", "Email support"], buttons: [{ text: "Get Started" }] }
       ]}
@@ -105,7 +112,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       title="Impact in Numbers"
+      description="Metrics that define our growth and partner success."
       metrics={[
           { id: "1", value: "100+", description: "Happy Partners" },
           { id: "2", value: "250+", description: "Completed Projects" }
@@ -118,7 +127,9 @@ export default function LandingPage() {
       showRating={true}
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       title="Client Success"
+      description="Hear from our clients about their experience with Shiv Enterprise."
       testimonials={[
           { id: "1", name: "Jane Doe", handle: "@janedoe", testimonial: "Shiv Enterprise exceeded our expectations in every phase of the project.", rating: 5 }
       ]}
@@ -131,6 +142,8 @@ export default function LandingPage() {
       title="Let's build together"
       description="Ready to discuss your next project? Get in touch with our team."
       buttons={[{ text: "Send Message" }]}
+      background={{ variant: "sparkles-gradient" }}
+      useInvertedBackground={false}
     />
   </div>
 
